@@ -117,7 +117,7 @@ const BeamTopWorld = ({
             position={[23, 4, 72]}
             rotate={[0, 0, -55]}
             currentSide={currentSide} />
-          <Link to={home ? '/news/' : '/'} title='MAKERLAND'>
+          <Link to={home ? '/about/' : '/'} title='MAKERLAND'>
             {/* M */}
             <Block size={[4, 18, 5]}
               position={[1, 1, 1]}

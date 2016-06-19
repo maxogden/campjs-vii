@@ -21,6 +21,7 @@ import '../css/base.css'
 import '../css/atomic.css'
 import '../css/extra.css'
 
+console.log('nav', navItems)
 let combokeys
 
 if (typeof document !== 'undefined') {
@@ -130,30 +131,21 @@ class Template extends Component {
             <BeamFace
               side={1}
               currentSide={rotation}>
-              {/\/news\/\w+/.test(state.path)
+              {/\/about\/\w+/.test(state.path)
                 ? <RouteHandler {...this.props} />
-                : <NewsIndex pages={pages}/>
+                : <AboutIndex pages={pages}/>
               }
             </BeamFace>
             <BeamFace
               side={2}
               currentSide={rotation}>
-              {/\/about\/\w+/.test(state.path)
+              {/\/schedule\/\w+/.test(state.path)
                 ? <RouteHandler {...this.props} />
-              : <AboutIndex pages={pages} active={rotation === 2} />
+              : <ScheduleIndex pages={pages} active={rotation === 2} />
               }
             </BeamFace>
             <BeamFace
               side={3}
-              currentSide={rotation}>
-              {/\/schedule\/\w+/.test(state.path)
-                ? <RouteHandler {...this.props} />
-                : (<ScheduleIndex />
-                )
-              }
-            </BeamFace>
-            <BeamFace
-              side={4}
               currentSide={rotation}>
               <Page
                 currentPath={page.path}

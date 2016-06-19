@@ -28,11 +28,11 @@ const Nav = ({
       <Link to='/about/code-of-conduct/' className={classes.link}>
         Code of Conduct
       </Link>
-      <Link to='http://twitter.com/campjsnews' className={classes.link}>
+      <Link to='http://twitter.com/oregonmakerland' className={classes.link}>
         <Icon name='twitter' /><span className={classes.linkText}>Twitter</span>
       </Link>
-      <Link to='http://github.com/campjs' className={classes.link}>
-        <Icon name='github' /><span className={classes.linkText}>Github</span>
+      <Link to='https://github.com/campjs/campjs-vii' className={classes.link}>
+        <Icon name='github' /><span className={classes.linkText}>Designed By CampJS</span>
       </Link>
     </div>
   )
