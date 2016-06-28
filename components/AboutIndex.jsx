@@ -36,6 +36,7 @@ const AboutIndex = ({
       </BeamSideHeader>
       <div className={bodyClasses}>
         <p className='Fz(ms1) Mb(r1)'>Maker Land is a camping event in Oregon, more details coming soon!</p>
+      {/*
         <Heading level={2} className='Fz(ms1) Mt(r2) Mb(rh)'>
           More Info
         </Heading>
@@ -51,6 +52,7 @@ const AboutIndex = ({
           })}
         </ul>
         {children}
+      */}
       </div>
     </div>
   )

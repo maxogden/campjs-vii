@@ -44,6 +44,8 @@ class ScheduleIndex extends Component {
         <BeamSideHeader>
           <BeamHeading>Schedule</BeamHeading>
         </BeamSideHeader>
+        <h3>Schedule coming soon!</h3>
+      {/*
         <div className='P(r1)'>
           <div className='Mb(r1)'>
             {days.map((day, key) => (
@@ -69,6 +71,7 @@ class ScheduleIndex extends Component {
             )}
           </div>
         </div>
+      */}
       </div>
     )
   }

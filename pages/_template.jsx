@@ -21,7 +21,6 @@ import '../css/base.css'
 import '../css/atomic.css'
 import '../css/extra.css'
 
-console.log('nav', navItems)
 let combokeys
 
 if (typeof document !== 'undefined') {

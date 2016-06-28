@@ -8,7 +8,7 @@
     "publish": "npm run build && npm run push",
     "get-schedule": "curl -s http://lanyrd.com/2016/campjs-vii/schedule/f5c33f7018106b04.v1.json > sessions.json",
     "push": "node publish.js",
-    "start": "npm run get-schedule && gatsby develop",
+    "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

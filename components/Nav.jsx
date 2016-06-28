@@ -27,11 +27,11 @@ export const navItems = [
   {
     id: 3,
     path: '/get-involved/',
-    title: 'Get Involved'
+    title: 'Propose A Workshop'
   },
   {
     id: 4,
-    path: 'https://google.com/',
+    path: 'https://google.com/?q=coming+soon',
     title: 'Tickets'
   }
 ]
