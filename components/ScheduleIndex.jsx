@@ -44,7 +44,17 @@ class ScheduleIndex extends Component {
         <BeamSideHeader>
           <BeamHeading>Schedule</BeamHeading>
         </BeamSideHeader>
-        <h3>Schedule coming soon!</h3>
+       <div className='P(r1)'>
+          <div className='Mb(r1)'>
+            <p className='Mb(r1)'>Workshop details coming soon!</p>
+            <p className='Mb(r1)'>
+              Campers can arrive Friday evening (August 19th) or Saturday morning (August 20th). A welcoming presentation will take place Saturday at 11AM and campers can leave Sunday night (the 21st) or Monday morning (the 22nd).
+            </p>
+            <p>
+              <a href='http://lanyrd.com/2016/makerland/'>Track Makerland on Lanyrd: http://lanyrd.com/2016/makerland/</a>
+            </p>
+          </div>
+        </div>
       {/*
         <div className='P(r1)'>
           <div className='Mb(r1)'>

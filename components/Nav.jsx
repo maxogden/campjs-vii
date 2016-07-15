@@ -31,7 +31,7 @@ export const navItems = [
   },
   {
     id: 4,
-    path: 'https://google.com/?q=coming+soon',
+    path: '/tickets/',
     title: 'Tickets'
   }
 ]

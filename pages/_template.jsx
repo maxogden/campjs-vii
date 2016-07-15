@@ -155,6 +155,17 @@ class Template extends Component {
                 }}/>
             </BeamFace>
             <BeamFace
+              side={4}
+              currentSide={rotation}>
+              <Page
+                currentPath={page.path}
+                {...{
+                  ...this.props,
+                  page: pages.find((page) =>
+                    page.requirePath === 'tickets/index.md')
+                }}/>
+            </BeamFace>
+            <BeamFace
               side={5}
               currentSide={rotation} />
           </Beam>

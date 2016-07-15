@@ -221,7 +221,7 @@ const BeamTopWorld = ({
               <div className='H(100%) D(f) Ai(c) Jc(c) Ta(c) Fz(msn2) Fz(msn1)--osm Fz(ms0)--osmd Fz(ms1)--md'>
                 <div className='Ai(c) Jc(c) Fld(c)'>
                   <div>19-21 AUGUST</div>
-                  <div className='Fz(.75em) Op(.75)'>WALDPORT, OREGON</div>
+                  <div className='Fz(.75em) Op(.75)'>SEAL ROCK, OREGON</div>
                 </div>
                 <div className='Pstart(rh) Op(0) Trs(aeo) Mstart(-1em) W(1em) signpost:h_Op(1) signpost:h_Mstart(0) Fz(ms2)'>></div>
               </div>
