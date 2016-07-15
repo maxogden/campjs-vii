@@ -37,7 +37,7 @@ const AboutIndex = ({
       <div style={{margin: "20px"}}>
         <p className='Fz(ms1) Mb(r1)'>A weekend open air camping + maker event on the Oregon coast!</p>
         <p className='Mb(r1)'>Camp out in a beautiful meadow on the Oregon coast and do things like learn how to solder LEDs in a barn or make a digeridoo out of driftwood. <LinkButton to='/tickets/'>Tickets are available now</LinkButton></p>
-        <p className='Mb(r1)'><a href="http://i.imgur.com/USliyK7.jpg"><img src="http://i.imgur.com/0kINYC5.png"></img></a></p>
+        <p className='Mb(r1)'><a href="http://i.imgur.com/USliyK7.jpg"><img src="http://i.imgur.com/g77pa88.png"></img></a></p>
         <p className='Mb(r1)'>Maker land is a unique blend of expert-led workshops and self-directed, unstructured learning. Some content is scheduled, but the main area is reserved for general use/making/hacking.</p>
         <p className='Mb(r1)'>Have a workshop idea? It can be anything hands-on. Propose a workshop <Link to='/get-involved/' className='Link'>over on this page</Link>.</p>
         <Heading level={2} className='Fz(ms1) Mt(r2) Mb(rh)'>When/Where</Heading>
