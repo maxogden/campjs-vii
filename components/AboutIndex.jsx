@@ -45,7 +45,7 @@ const AboutIndex = ({
           Campers can arrive Friday evening (August 19th) or Saturday morning (August 20th). A welcoming presentation will take place Saturday at 11AM and campers can leave Sunday night (the 21st) or Monday morning (the 22nd).
         </p>
         <p className='Mb(r1)'>
-          The activities will be at <Link className='Link' to='https://www.facebook.com/Artfarm-Barn-502122016603951/'>The Artfarm Barn</Link>, Seal Rock, OR, nestled next to a salmon spawning creek near the beach and a national forest. Find out <Link to='/about/transport/' className='Link'>more about transport</Link>.
+          The activities will be at <Link className='Link' to='https://www.facebook.com/Artfarm-Barn-502122016603951/'>The Artfarm Barn</Link>, Seal Rock, OR, nestled next to a salmon spawning creek near the beach and a national forest. There will be power and wi-fi but limited water and possibly showers but no guarantees on that yet. Find out <Link to='/about/transport/' className='Link'>more about transport</Link>.
         </p>
         <p><img src="http://i.imgur.com/qNkK2po.jpg"></img></p>
         <Heading level={2} className='Fz(ms1) Mt(r2) Mb(rh)'>What To Bring</Heading>
@@ -57,6 +57,7 @@ const AboutIndex = ({
           <li>Foam or inflatable camping pad to sleep on</li>
           <li>Toiletries including soap</li>
           <li>Towel(s)</li>
+          <li>Baby wipes (for "showers")</li>
           <li>Computer (Prepared for offline use)</li>
           <li>Phone</li>
           <li>Associated Chargers for the above items</li>
