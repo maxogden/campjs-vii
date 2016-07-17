@@ -58,18 +58,18 @@ const AboutIndex = ({
           <li>Toiletries including soap</li>
           <li>Towel(s)</li>
           <li>Baby wipes (for "showers")</li>
+          <li>Instruments! There are quiet hours, but otherwise we can make music.</li>
+          <li>LEDs and other things that glow at night</li>
           <li>Computer (Prepared for offline use)</li>
-          <li>Phone</li>
+          <li>Phone (there is spotty 4G signal)</li>
           <li>Associated Chargers for the above items</li>
-          <li>Enough clothing for your stay, including clothing for 40s-50s at night</li>
+          <li>Enough clothing for your stay, including clothing for 40-50 degrees at night</li>
           <li>Sunscreen, sunglasses and hat</li>
           <li>Insect repellent</li>
           <li>Board/Card Games</li>
           <li>Headphones</li>
-          <li>Instruments! There are quiet hours, but otherwise we can make music.</li>
           <li>Medications</li>
           <li>Snacks to Share</li>
-          <li>Additional Alchohol (Some beer and cider provided)</li>
           <li>A <Link to='/about/code-of-conduct/' className='Link'>Good Attitude</Link></li>
           <li>Anything else you need to survive the weekend</li>
         </ul>
