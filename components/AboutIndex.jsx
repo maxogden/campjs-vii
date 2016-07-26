@@ -73,9 +73,6 @@ const AboutIndex = ({
           <li>A <Link to='/about/code-of-conduct/' className='Link'>Good Attitude</Link></li>
           <li>Anything else you need to survive the weekend</li>
         </ul>
-        <p>
-          <LinkButton to='http://lanyrd.com/2016/makerland/' type='secondary'>View Schedule on Lanyrd</LinkButton>
-        </p>
       </div>
     </div>
   )

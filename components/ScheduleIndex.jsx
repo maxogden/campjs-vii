@@ -50,9 +50,6 @@ class ScheduleIndex extends Component {
             <p className='Mb(r1)'>
               Campers can arrive Friday evening (August 19th) or Saturday morning (August 20th). A welcoming presentation will take place Saturday at 11AM and campers can leave Sunday night (the 21st) or Monday morning (the 22nd).
             </p>
-            <p>
-              <a href='http://lanyrd.com/2016/makerland/'>Track Makerland on Lanyrd: http://lanyrd.com/2016/makerland/</a>
-            </p>
           </div>
         </div>
       {/*
