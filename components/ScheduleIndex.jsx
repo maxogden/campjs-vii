@@ -18,7 +18,7 @@ class ScheduleIndex extends Component {
     const today = new Date()
     const isItSunday = (today.getDate() === 5) && (today.getMonth() === 5)
     this.state = {
-      activeDay: isItSunday ? 2 : 1
+      activeDay: isItSunday ? 1 : 0
     }
     this.handleSwitchDay = this.handleSwitchDay.bind(this)
   }
@@ -46,13 +46,12 @@ class ScheduleIndex extends Component {
         </BeamSideHeader>
        <div className='P(r1)'>
           <div className='Mb(r1)'>
-            <p className='Mb(r1)'>Workshop details coming soon!</p>
             <p className='Mb(r1)'>
-              Campers can arrive Friday evening (August 19th) or Saturday morning (August 20th). A welcoming presentation will take place Saturday at 11AM and campers can leave Sunday night (the 21st) or Monday morning (the 22nd).
+              Campers can arrive Friday evening (August 19th) or Saturday morning (August 20th). A welcoming presentation will take place Saturday at 11:30AM and campers can leave Sunday night (the 21st) or Monday morning (the 22nd).
             </p>
+            <p className='Mb(r1)'>Confirmed Workshops Shown Below (More coming soon!)</p>
           </div>
         </div>
-      {/*
         <div className='P(r1)'>
           <div className='Mb(r1)'>
             {days.map((day, key) => (
@@ -60,7 +59,7 @@ class ScheduleIndex extends Component {
                 className={activeDay === key ? 'Bgc(#fff)! C(dirt) ' + dayButtonClasses : dayButtonClasses}
                 onClick={this.handleSwitchDay.bind(this, key)}>
                 <Heading level={2} className='Pos(st) T(0) L(0) Tt(u) Lh(1)'>
-                  {day.day ? simplifyDay(day.day) : 'Unscheduled'}
+                  {day.day || 'Unscheduled'}
                 </Heading>
               </button>
             ))}
@@ -78,7 +77,7 @@ class ScheduleIndex extends Component {
             )}
           </div>
         </div>
-      */}
+
       </div>
     )
   }
