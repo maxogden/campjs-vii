@@ -48,6 +48,9 @@ const AboutIndex = ({
           The activities will be at <Link className='Link' to='https://www.facebook.com/Artfarm-Barn-502122016603951/'>The Artfarm Barn</Link>, Seal Rock, OR, nestled next to a salmon spawning creek near the beach and a national forest. There is working power and wi-fi, and the barn is furnished on the inside with plenty of workspaces. There is limited water and there are two solar shower bags with a private showering area. Find out <Link to='/about/transport/' className='Link'>more about transport</Link>.
         </p>
         <p><img src="http://i.imgur.com/1Y4wQmC.jpg"></img></p>
+        <p className='Mb(r1)'>
+          If you are unsure about camping, we have six semi-private spaces (bunk beds) inside the Art Barn. If you would like to learn more about these or any of the other details, please contact mogden at gmail.com.
+        </p>
         <Heading level={2} className='Fz(ms1) Mt(r2) Mb(rh)'>What To Bring</Heading>
         <ul className='List(d) Mstart(r1) Mb(r2)'>
           <li>Enough fresh water for yourself for the weekend (the barn is off the water grid, supply is limited)</li>
