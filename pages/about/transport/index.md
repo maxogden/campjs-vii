@@ -12,7 +12,7 @@ From Newport, OR:
 - In 2.5 miles, turn left on to N S-Low Road
 - In 500 feet the Artbarn driveway is on right. Please park in the parking area there.
 
-We encourage you to carpool if driving! If you want to offer a seat, please email mogden at gmail.com. We'll also email everyone before the event to further coordinate carpooling.
+We encourage you to carpool if driving! If you want to offer or find a seat please use this etherpad [https://public.etherpad-mozilla.org/p/makerland-rideshare](https://public.etherpad-mozilla.org/p/makerland-rideshare)
 
 If driving from Portland, be aware that Highway 20 between Corvallis and Newport will be closed evenings for construction. Therefore the fastest route during the day is Portland to Corvallis to Newport to Seal Rock, but if driving at night the best option will be Portland to Lincoln City to Seal Rock.
 
