@@ -54,6 +54,7 @@ const AboutIndex = ({
         <Heading level={2} className='Fz(ms1) Mt(r2) Mb(rh)'>What To Bring</Heading>
         <ul className='List(d) Mstart(r1) Mb(r2)'>
           <li>Enough fresh water for yourself for the weekend (the barn is off the water grid, supply is limited)</li>
+          <li>Outdoor friendly shoes</li>
           <li>Earplugs</li>
           <li>Tent or hammock to camp in <a href="https://www.pdx.edu/recreation/equipment-rental-center">(PSU also offers equipment rentals to the public!)</a></li>
           <li>Sleeping Bag</li>
